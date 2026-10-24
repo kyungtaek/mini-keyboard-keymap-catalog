@@ -2,10 +2,12 @@ import { getModel } from './models.js';
 
 // Fixed product choices; readable device colors outside this palette are preserved.
 export const LED_PALETTE = Object.freeze([
-  '#ff0000', '#ff8030', '#ffff30', '#00ff00', '#00ffff', '#0000ff', '#800080', '#8b0000',
+  '#ff0000', '#ff8030', '#ffff30', '#00ff00', '#00ffff', '#0000ff', '#800080', '#000000',
   '#ffa500', '#ffff96', '#7dff00', '#008b8b', '#00008b', '#ff00ff', '#ff6666', '#ffc864',
 ]);
 const palette = new Set(LED_PALETTE);
+// Former v4 palette choice remains valid in imported files, but is not offered for new selections.
+const deprecatedImportColors = new Set(['#8b0000']);
 
 function lightingObject(value) {
   if (!value || typeof value !== 'object' || Array.isArray(value)
@@ -27,7 +29,7 @@ function colorArray(value, count, allowPreserve, paletteOnly) {
     if (color === null && allowPreserve) { result.push(null); continue; }
     if (typeof color !== 'string' || !/^#[0-9a-f]{6}$/i.test(color)) throw new Error('LED 색상은 #rrggbb 형식이어야 합니다.');
     const normalized = color.toLowerCase();
-    if (paletteOnly && !palette.has(normalized)) throw new Error('LED 색상은 고정 팔레트 16개 중에서 선택해 주세요.');
+    if (paletteOnly && !palette.has(normalized) && !deprecatedImportColors.has(normalized)) throw new Error('LED 색상은 고정 팔레트 16개 중에서 선택해 주세요.');
     result.push(normalized);
   }
   return result;

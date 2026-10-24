@@ -82,7 +82,8 @@ test('v4 lighting and labels validate in a catalog fixture and shared fragment',
     const profile = validateProfile(old);
     profile.rotation = 270;
     profile.layers[1].lighting = { mode: 2, colors: Array(16).fill(null) };
-    profile.layers[1].lighting.colors[5] = '#ff8030';
+    profile.layers[1].lighting.colors[5] = '#000000';
+    profile.layers[1].lighting.colors[6] = '#8b0000';
     const bytes = Buffer.from(JSON.stringify(profile));
     fixture.entries[0].sha256 = sha256(bytes);
     await writeFile(new URL(fixture.entries[0].path, base), bytes);
