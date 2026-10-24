@@ -1,0 +1,479 @@
+{
+  "format": "mini-keyboard-studio",
+  "version": 2,
+  "id": "sample-claude-mac",
+  "name": "Claude 앱 · Mac · 빠른 입력 설정",
+  "description": "16키·3다이얼 × 3레이어. 먼저 Claude Desktop 설정에서 Quick access shortcut=Option+Space 선택. 레이어 1은 입력·표준 Mac 편집, 2는 아티팩트/Slides 문맥 탐색, 3은 편집·미디어. Claude Code 키와 구분. Option 두 번·Caps Lock 음성은 자동 지정하지 않음.",
+  "updatedAt": "2026-10-24T14:00:00.000Z",
+  "modelId": "mini-16x3",
+  "rotation": 0,
+  "layers": [
+    {
+      "name": "빠른 입력 / 작성",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "DELETE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ALT",
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "V"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "X"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "A"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ALT",
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "A"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ALT",
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        }
+      ]
+    },
+    {
+      "name": "아티팩트 / Slides",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F6"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "D"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "F6"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        }
+      ]
+    },
+    {
+      "name": "공통 편집 / 미디어",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "DELETE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "V"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "X"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "A"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PLAY_PAUSE"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "STOP"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        }
+      ]
+    }
+  ]
+}

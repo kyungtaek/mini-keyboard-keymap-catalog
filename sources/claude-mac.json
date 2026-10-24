@@ -1,0 +1,1562 @@
+{
+  "schemaVersion": 2,
+  "id": "claude-mac",
+  "title": "Claude desktop app",
+  "platform": "macOS",
+  "checkedAt": "2026-10-24T14:00:00.000Z",
+  "profilePath": "keymaps/sample-claude-mac.json",
+  "description": "16키·3다이얼 × 3레이어. 먼저 Claude Desktop 설정에서 Quick access shortcut=Option+Space 선택. 레이어 1은 입력·표준 Mac 편집, 2는 아티팩트/Slides 문맥 탐색, 3은 편집·미디어. Claude Code 키와 구분. Option 두 번·Caps Lock 음성은 자동 지정하지 않음.",
+  "setupInstructions": [
+    "Claude Desktop > Settings > Desktop app > Quick access shortcut에서 Option + Space를 선택한다. 이 키맵이 앱 설정을 바꾸지는 않는다.",
+    "레이어 2는 아티팩트 패널 또는 Slides 편집기에 포커스를 둔 경우만 사용한다."
+  ],
+  "sources": [
+    {
+      "title": "Claude Desktop quick entry on Mac",
+      "url": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac"
+    },
+    {
+      "title": "Apple Mac keyboard shortcuts",
+      "url": "https://support.apple.com/en-us/102650"
+    },
+    {
+      "title": "USB-IF HID Usage Tables 1.5",
+      "url": "https://usb.org/sites/default/files/hut1_5.pdf"
+    },
+    {
+      "title": "Claude artifacts and Slides keyboard controls",
+      "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+    }
+  ],
+  "records": [
+    {
+      "id": "layer-1-quick-entry",
+      "label": "빠른 입력 · 앱 설정 필요",
+      "keys": [
+        "ALT",
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "SPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 4,
+      "status": "configured-option",
+      "sourceUrl": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac",
+      "notes": "Documented selectable Option+Space quick-entry binding. User must first select it in Claude Desktop settings. This is not the default double-tap Option and the profile does not alter app settings.",
+      "confidence": "vendor-documented-option-user-setup-required"
+    },
+    {
+      "id": "layer-1-paste",
+      "label": "붙여넣기",
+      "keys": [
+        "META",
+        "V"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "V"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 8,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-cut",
+      "label": "잘라내기",
+      "keys": [
+        "META",
+        "X"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "X"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 12,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-select-all",
+      "label": "모두 선택",
+      "keys": [
+        "META",
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "A"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 16,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-undo",
+      "label": "실행 취소",
+      "keys": [
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 3,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-redo",
+      "label": "다시 실행",
+      "keys": [
+        "SHIFT",
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 7,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-find",
+      "label": "찾기",
+      "keys": [
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 11,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-copy",
+      "label": "복사",
+      "keys": [
+        "META",
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "C"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 15,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-shift-tab",
+      "label": "이전 항목",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 2,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-enter",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 6,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac",
+      "notes": "Enter sends the current message when Claude quick entry is open. It is a single explicit key press, not an automated submission sequence.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-escape",
+      "label": "Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 10,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-backspace",
+      "label": "Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 14,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-delete",
+      "label": "Delete",
+      "keys": [
+        "DELETE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DELETE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 1,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-home",
+      "label": "Home",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 5,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-end",
+      "label": "End",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 9,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-space",
+      "label": "Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 13,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-previous-word",
+      "label": "이전 단어",
+      "keys": [
+        "ALT",
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "LEFT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 17,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-select-all",
+      "label": "모두 선택",
+      "keys": [
+        "META",
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "A"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 18,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-next-word",
+      "label": "다음 단어",
+      "keys": [
+        "ALT",
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "RIGHT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 19,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-page-up",
+      "label": "Page Up",
+      "keys": [
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 20,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-copy-dial",
+      "label": "복사",
+      "keys": [
+        "META",
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "C"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 21,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-page-down",
+      "label": "Page Down",
+      "keys": [
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 22,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS text editing; editable field must be focused. Enter sends text in Claude quick entry when it is open.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-1-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-next-area",
+      "label": "아티팩트 다음 영역",
+      "keys": [
+        "META",
+        "F6"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "F6"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 4,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-previous-area",
+      "label": "아티팩트 이전 영역",
+      "keys": [
+        "SHIFT",
+        "META",
+        "F6"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "F6"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 8,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-enter-artifact",
+      "label": "아티팩트 항목 안으로",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 12,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-outward",
+      "label": "아티팩트 바깥으로",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 16,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-next-object",
+      "label": "다음 개체",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 3,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-previous-object",
+      "label": "이전 개체",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 7,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-first-object",
+      "label": "첫 개체",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 11,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-last-object",
+      "label": "마지막 개체",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 15,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-left-object",
+      "label": "개체 왼쪽 / 이전 슬라이드",
+      "keys": [
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "LEFT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 2,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-right-object",
+      "label": "개체 오른쪽 / 다음 슬라이드",
+      "keys": [
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "RIGHT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 6,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-up-object",
+      "label": "개체 위로",
+      "keys": [
+        "UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 10,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-down-object",
+      "label": "개체 아래로",
+      "keys": [
+        "DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 14,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-up-level",
+      "label": "Slides 한 단계 위로",
+      "keys": [
+        "SHIFT",
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 1,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-duplicate",
+      "label": "Slides 개체 / 슬라이드 복제",
+      "keys": [
+        "META",
+        "D"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "D"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 5,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-undo",
+      "label": "Slides 실행 취소",
+      "keys": [
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 9,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-redo",
+      "label": "Slides 다시 실행",
+      "keys": [
+        "SHIFT",
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 13,
+      "status": "published-default",
+      "sourceUrl": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "notes": "Only in the Claude Slides/artifact editor with the applicable object, slide or panel focused. Not a general Claude chat shortcut.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-page-up-dial",
+      "label": "Page Up",
+      "keys": [
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-enter-dial",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-page-down-dial",
+      "label": "Page Down",
+      "keys": [
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-left-dial",
+      "label": "왼쪽",
+      "keys": [
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "LEFT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-tab-dial",
+      "label": "Tab",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-right-dial",
+      "label": "오른쪽",
+      "keys": [
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "RIGHT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-copy",
+      "label": "복사",
+      "keys": [
+        "META",
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "C"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 4,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; Claude-specific app menus were not observed locally.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-paste",
+      "label": "붙여넣기",
+      "keys": [
+        "META",
+        "V"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "V"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 8,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; Claude-specific app menus were not observed locally.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-cut",
+      "label": "잘라내기",
+      "keys": [
+        "META",
+        "X"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "X"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 12,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; Claude-specific app menus were not observed locally.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-select-all",
+      "label": "모두 선택",
+      "keys": [
+        "META",
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "A"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 16,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; Claude-specific app menus were not observed locally.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-undo",
+      "label": "실행 취소",
+      "keys": [
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 3,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; Claude-specific app menus were not observed locally.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-redo",
+      "label": "다시 실행",
+      "keys": [
+        "SHIFT",
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 7,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; Claude-specific app menus were not observed locally.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-find",
+      "label": "찾기",
+      "keys": [
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 11,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; Claude-specific app menus were not observed locally.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-tab",
+      "label": "다음 항목",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 15,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-shift-tab",
+      "label": "이전 항목",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 2,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-enter",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 6,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-escape",
+      "label": "Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 10,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-backspace",
+      "label": "Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 14,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-delete",
+      "label": "Delete",
+      "keys": [
+        "DELETE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DELETE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 1,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-home",
+      "label": "Home",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 5,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-end",
+      "label": "End",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 9,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-space",
+      "label": "Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 13,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-play-pause",
+      "label": "재생 / 일시 정지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PLAY_PAUSE"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track-2",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-stop",
+      "label": "미디어 재생 중지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "STOP"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track-2",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    }
+  ],
+  "limitations": [
+    "Shortcut documentation and the profile shape were checked; physical keypad input and target-app/game execution were not verified.",
+    "User bindings, active context, feature availability, keyboard layout and digital key-hold behavior can affect results.",
+    "Claude app was unavailable for local menu inspection. Layer 2 is explicitly an artifact/Slides editor context, not a claim about global Claude chat shortcuts."
+  ],
+  "unsupportedGestures": [
+    {
+      "label": "Default quick entry: double-tap Option",
+      "action": {
+        "type": "preserve"
+      },
+      "status": "unsupported-timing",
+      "sourceUrl": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac",
+      "notes": "Not inserted into any active slot; timing not synthesized."
+    },
+    {
+      "label": "Caps Lock voice dictation",
+      "action": {
+        "type": "preserve"
+      },
+      "status": "requires-app-configuration",
+      "sourceUrl": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac",
+      "notes": "Not inserted into any active slot; disabled by default and requires a deliberate voice setting."
+    }
+  ]
+}

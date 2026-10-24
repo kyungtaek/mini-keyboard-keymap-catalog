@@ -1,0 +1,1638 @@
+{
+  "schemaVersion": 2,
+  "id": "vscode-mac",
+  "title": "Visual Studio Code",
+  "platform": "macOS",
+  "checkedAt": "2026-10-24T14:00:00.000Z",
+  "profilePath": "keymaps/sample-vscode-mac.json",
+  "description": "16키·3다이얼 × 3레이어. 공식 macOS 단축키로 편집 / 파일·탐색 / 공통 편집·미디어를 배치. META=Command, ALT=Option. 대상 앱과 실제 키패드 입력 검증은 별도.",
+  "setupInstructions": [],
+  "sources": [
+    {
+      "title": "Microsoft official macOS shortcut reference",
+      "url": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "title": "USB-IF HID Usage Tables 1.5",
+      "url": "https://usb.org/sites/default/files/hut1_5.pdf"
+    },
+    {
+      "title": "Apple Mac keyboard shortcuts",
+      "url": "https://support.apple.com/en-us/102650"
+    }
+  ],
+  "records": [
+    {
+      "id": "layer-1-palette",
+      "label": "명령 팔레트",
+      "keys": [
+        "SHIFT",
+        "META",
+        "P"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "P"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 4,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-quick-open",
+      "label": "파일 빠르게 열기",
+      "keys": [
+        "META",
+        "P"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "P"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 8,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-save",
+      "label": "저장",
+      "keys": [
+        "META",
+        "S"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "S"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 12,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-format",
+      "label": "문서 서식",
+      "keys": [
+        "SHIFT",
+        "ALT",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "ALT",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 16,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-comment",
+      "label": "줄 주석 전환",
+      "keys": [
+        "META",
+        "SLASH"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "SLASH"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 3,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-rename",
+      "label": "심볼 이름 변경",
+      "keys": [
+        "F2"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "F2"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 7,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-definition",
+      "label": "정의로 이동",
+      "keys": [
+        "F12"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "F12"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 11,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-quick-fix",
+      "label": "빠른 수정",
+      "keys": [
+        "META",
+        "PERIOD"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "PERIOD"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 15,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-find",
+      "label": "찾기",
+      "keys": [
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 2,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-replace",
+      "label": "바꾸기",
+      "keys": [
+        "ALT",
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 6,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-next-match",
+      "label": "다음 일치 항목",
+      "keys": [
+        "META",
+        "G"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "G"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 10,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-previous-match",
+      "label": "이전 일치 항목",
+      "keys": [
+        "SHIFT",
+        "META",
+        "G"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "G"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 14,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-line-up",
+      "label": "줄 위로 이동",
+      "keys": [
+        "ALT",
+        "UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 1,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-line-down",
+      "label": "줄 아래로 이동",
+      "keys": [
+        "ALT",
+        "DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 5,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-undo",
+      "label": "실행 취소",
+      "keys": [
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 9,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-redo",
+      "label": "다시 실행",
+      "keys": [
+        "SHIFT",
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 13,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-back",
+      "label": "이전 코드 위치",
+      "keys": [
+        "CTRL",
+        "MINUS"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "MINUS"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 17,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-definition-dial",
+      "label": "정의로 이동",
+      "keys": [
+        "F12"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "F12"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 18,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-forward",
+      "label": "다음 코드 위치",
+      "keys": [
+        "CTRL",
+        "SHIFT",
+        "MINUS"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "SHIFT",
+          "MINUS"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 19,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-previous-editor",
+      "label": "이전 편집기",
+      "keys": [
+        "CTRL",
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 20,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-split",
+      "label": "편집기 분할",
+      "keys": [
+        "META",
+        "BACKSLASH"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "BACKSLASH"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 21,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-next-editor",
+      "label": "다음 편집기",
+      "keys": [
+        "CTRL",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 22,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-outdent",
+      "label": "들여쓰기 감소",
+      "keys": [
+        "META",
+        "LEFT_BRACKET"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "LEFT_BRACKET"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 23,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-save-dial",
+      "label": "저장",
+      "keys": [
+        "META",
+        "S"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "S"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 24,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-indent",
+      "label": "들여쓰기 증가",
+      "keys": [
+        "META",
+        "RIGHT_BRACKET"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "RIGHT_BRACKET"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 25,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-new-file",
+      "label": "새 파일",
+      "keys": [
+        "META",
+        "N"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "N"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 4,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-open-file",
+      "label": "파일 열기",
+      "keys": [
+        "META",
+        "O"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "O"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 8,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-save-all",
+      "label": "모두 저장",
+      "keys": [
+        "ALT",
+        "META",
+        "S"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "META",
+          "S"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 12,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-close-editor",
+      "label": "편집기 닫기",
+      "keys": [
+        "META",
+        "W"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "W"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 16,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-sidebar",
+      "label": "사이드바 전환",
+      "keys": [
+        "META",
+        "B"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "B"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 3,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-explorer",
+      "label": "탐색기",
+      "keys": [
+        "SHIFT",
+        "META",
+        "E"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "E"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 7,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-search",
+      "label": "전체 검색",
+      "keys": [
+        "SHIFT",
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 11,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-source-control",
+      "label": "소스 제어",
+      "keys": [
+        "CTRL",
+        "SHIFT",
+        "G"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "SHIFT",
+          "G"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 15,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-go-line",
+      "label": "줄로 이동",
+      "keys": [
+        "CTRL",
+        "G"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "G"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 2,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-symbols",
+      "label": "파일 심볼",
+      "keys": [
+        "SHIFT",
+        "META",
+        "O"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "O"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 6,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-problems",
+      "label": "문제 패널",
+      "keys": [
+        "SHIFT",
+        "META",
+        "M"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "M"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 10,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-references",
+      "label": "참조 보기",
+      "keys": [
+        "SHIFT",
+        "F12"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "F12"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 14,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-file-top",
+      "label": "파일 처음",
+      "keys": [
+        "META",
+        "UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 1,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-file-bottom",
+      "label": "파일 끝",
+      "keys": [
+        "META",
+        "DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 5,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-fold",
+      "label": "영역 접기",
+      "keys": [
+        "ALT",
+        "META",
+        "LEFT_BRACKET"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "META",
+          "LEFT_BRACKET"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 9,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-unfold",
+      "label": "영역 펴기",
+      "keys": [
+        "ALT",
+        "META",
+        "RIGHT_BRACKET"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ALT",
+          "META",
+          "RIGHT_BRACKET"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 13,
+      "status": "published-default",
+      "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "notes": "",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-previous-error",
+      "label": "이전 문제",
+      "keys": [
+        "SHIFT",
+        "F8"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "F8"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-problems-dial",
+      "label": "문제 패널",
+      "keys": [
+        "SHIFT",
+        "META",
+        "M"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "M"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-next-error",
+      "label": "다음 문제",
+      "keys": [
+        "F8"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "F8"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-scroll-up",
+      "label": "위로 스크롤",
+      "keys": [
+        "CTRL",
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "PAGE_UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-reopen",
+      "label": "닫은 편집기 다시 열기",
+      "keys": [
+        "SHIFT",
+        "META",
+        "T"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "T"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-scroll-down",
+      "label": "아래로 스크롤",
+      "keys": [
+        "CTRL",
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-focus-one",
+      "label": "편집기 그룹 1",
+      "keys": [
+        "META",
+        "1"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "1"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-focus-two",
+      "label": "편집기 그룹 2",
+      "keys": [
+        "META",
+        "2"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "2"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-focus-three",
+      "label": "편집기 그룹 3",
+      "keys": [
+        "META",
+        "3"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "3"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-copy",
+      "label": "복사",
+      "keys": [
+        "META",
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "C"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 4,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; not an additional VS Code feature claim.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-paste",
+      "label": "붙여넣기",
+      "keys": [
+        "META",
+        "V"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "V"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 8,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; not an additional VS Code feature claim.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-cut",
+      "label": "잘라내기",
+      "keys": [
+        "META",
+        "X"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "X"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 12,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; not an additional VS Code feature claim.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-select-all",
+      "label": "모두 선택",
+      "keys": [
+        "META",
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "A"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 16,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; not an additional VS Code feature claim.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-undo",
+      "label": "실행 취소",
+      "keys": [
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 3,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; not an additional VS Code feature claim.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-redo",
+      "label": "다시 실행",
+      "keys": [
+        "SHIFT",
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 7,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; not an additional VS Code feature claim.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-find",
+      "label": "찾기",
+      "keys": [
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 11,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting field; not an additional VS Code feature claim.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-tab",
+      "label": "다음 항목",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 15,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-shift-tab",
+      "label": "이전 항목",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 2,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-enter",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 6,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-escape",
+      "label": "Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 10,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-backspace",
+      "label": "Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 14,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-delete",
+      "label": "Delete",
+      "keys": [
+        "DELETE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DELETE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 1,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-home",
+      "label": "Home",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 5,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-end",
+      "label": "End",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 9,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-space",
+      "label": "Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 13,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-play-pause",
+      "label": "재생 / 일시 정지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PLAY_PAUSE"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track-2",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-stop",
+      "label": "미디어 재생 중지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "STOP"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track-2",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    }
+  ],
+  "limitations": [
+    "Shortcut documentation and the profile shape were checked; physical keypad input and target-app/game execution were not verified.",
+    "User bindings, active context, feature availability, keyboard layout and digital key-hold behavior can affect results."
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 2,
+  "checkedAt": "2026-10-24T14:00:00.000Z",
+  "layout": {
+    "gridActionIds": [
+      [
+        4,
+        8,
+        12,
+        16
+      ],
+      [
+        3,
+        7,
+        11,
+        15
+      ],
+      [
+        2,
+        6,
+        10,
+        14
+      ],
+      [
+        1,
+        5,
+        9,
+        13
+      ]
+    ],
+    "encoderActionIds": [
+      [
+        17,
+        18,
+        19
+      ],
+      [
+        20,
+        21,
+        22
+      ],
+      [
+        23,
+        24,
+        25
+      ]
+    ],
+    "encoderOrder": [
+      "counterclockwise",
+      "press",
+      "clockwise"
+    ]
+  },
+  "statusDefinitions": {
+    "published-default": "Binding documented by the product vendor; active context and user customization still apply.",
+    "standard-hid": "Standard HID usage, not proof of application behavior.",
+    "os-convention": "Documented macOS editing convention; app-specific behavior unverified.",
+    "requires-app-configuration": "Documented optional binding; preserved until user matches app settings.",
+    "unsupported-timing": "Published gesture requires timing not represented safely by this profile.",
+    "unverified-default": "No vendor-authored or observed default binding established; preserve.",
+    "proposed-remap": "Author-designed 1:1 game keybinding proposal; manually configure the corresponding in-game binding before use. Not a verified default.",
+    "configured-option": "Vendor-documented optional binding inserted for this sample; requires matching user app setting before use."
+  },
+  "datasets": [
+    {
+      "id": "vscode-mac",
+      "title": "Visual Studio Code",
+      "platform": "macOS",
+      "datasetPath": "sources/vscode-mac.json",
+      "profilePath": "keymaps/sample-vscode-mac.json",
+      "name": "VS Code · Mac",
+      "modelId": "mini-16x3",
+      "layerNames": [
+        "코드 편집",
+        "파일 / 탐색",
+        "공통 편집 / 미디어"
+      ],
+      "activeActions": 75,
+      "readiness": "documented-context-dependent"
+    },
+    {
+      "id": "codex-mac",
+      "title": "Codex desktop app",
+      "platform": "macOS",
+      "datasetPath": "sources/codex-mac.json",
+      "profilePath": "keymaps/sample-codex-mac.json",
+      "name": "Codex 앱 · Mac",
+      "modelId": "mini-16x3",
+      "layerNames": [
+        "Codex 앱",
+        "내장 브라우저",
+        "공통 편집 / 미디어"
+      ],
+      "activeActions": 75,
+      "readiness": "documented-context-dependent"
+    },
+    {
+      "id": "claude-mac",
+      "title": "Claude desktop app",
+      "platform": "macOS",
+      "datasetPath": "sources/claude-mac.json",
+      "profilePath": "keymaps/sample-claude-mac.json",
+      "name": "Claude 앱 · Mac · 빠른 입력 설정",
+      "modelId": "mini-16x3",
+      "layerNames": [
+        "빠른 입력 / 작성",
+        "아티팩트 / Slides",
+        "공통 편집 / 미디어"
+      ],
+      "activeActions": 75,
+      "readiness": "requires-quick-entry-setting"
+    },
+    {
+      "id": "modern-warfare4-pc",
+      "title": "Call of Duty: Modern Warfare 4 (2026)",
+      "platform": "Windows PC",
+      "datasetPath": "sources/modern-warfare4-pc.json",
+      "profilePath": "keymaps/sample-modern-warfare4-pc.json",
+      "name": "Modern Warfare 4 · PC · 바인딩 제안",
+      "modelId": "mini-16x3",
+      "layerNames": [
+        "게임 바인딩 제안",
+        "표준 탐색",
+        "PC 편집 / OS 미디어"
+      ],
+      "activeActions": 75,
+      "readiness": "requires-game-rebinding"
+    },
+    {
+      "id": "forza-horizon4-pc",
+      "title": "Forza Horizon 4",
+      "platform": "Windows PC",
+      "datasetPath": "sources/forza-horizon4-pc.json",
+      "profilePath": "keymaps/sample-forza-horizon4-pc.json",
+      "name": "Forza Horizon 4 · PC · 바인딩 제안",
+      "modelId": "mini-16x3",
+      "layerNames": [
+        "운전 바인딩 제안",
+        "표준 탐색",
+        "PC 편집 / OS 미디어"
+      ],
+      "activeActions": 75,
+      "readiness": "requires-game-rebinding"
+    },
+    {
+      "id": "system-mac",
+      "title": "System navigation and media",
+      "platform": "macOS",
+      "datasetPath": "sources/system-mac.json",
+      "profilePath": "keymaps/sample-system-mac.json",
+      "name": "시스템 기본 · Mac 탐색/미디어",
+      "modelId": "mini-16x3",
+      "layerNames": [
+        "기본 탐색",
+        "Safari / 창 관리",
+        "공통 편집 / 미디어"
+      ],
+      "activeActions": 75,
+      "readiness": "documented-context-dependent"
+    }
+  ]
+}

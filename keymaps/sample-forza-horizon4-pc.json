@@ -1,0 +1,445 @@
+{
+  "format": "mini-keyboard-studio",
+  "version": 2,
+  "id": "sample-forza-horizon4-pc",
+  "name": "Forza Horizon 4 · PC · 바인딩 제안",
+  "description": "Forza Horizon 4 PC용 사용자 지정 키 바인딩 제안. 공식 기본 키 표를 확인하지 못해 기본값으로 주장하지 않음. 레이어 1의 운전·카메라 동작을 게임 설정에서 제안 키에 직접 맞춘 뒤 사용. 2 표준 탐색, 3 PC 편집·OS 미디어. 수동 변속·클러치는 해당 주행 설정 필요. 실물·게임 검증 전 추천 초안.",
+  "updatedAt": "2026-10-24T14:00:00.000Z",
+  "modelId": "mini-16x3",
+  "rotation": 0,
+  "layers": [
+    {
+      "name": "운전 바인딩 제안",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "M"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "Q"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "P"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "R"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "W"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "E"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "H"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "S"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "D"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PLAY_PAUSE"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "STOP"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        }
+      ]
+    },
+    {
+      "name": "표준 탐색",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "DELETE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "F10"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        }
+      ]
+    },
+    {
+      "name": "PC 편집 / OS 미디어",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "DELETE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "Y"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "V"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "X"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "A"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PLAY_PAUSE"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "STOP"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        }
+      ]
+    }
+  ]
+}

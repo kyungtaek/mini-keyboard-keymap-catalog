@@ -1,0 +1,1471 @@
+{
+  "schemaVersion": 2,
+  "id": "forza-horizon4-pc",
+  "title": "Forza Horizon 4",
+  "platform": "Windows PC",
+  "checkedAt": "2026-10-24T14:00:00.000Z",
+  "profilePath": "keymaps/sample-forza-horizon4-pc.json",
+  "description": "Forza Horizon 4 PC용 사용자 지정 키 바인딩 제안. 공식 기본 키 표를 확인하지 못해 기본값으로 주장하지 않음. 레이어 1의 운전·카메라 동작을 게임 설정에서 제안 키에 직접 맞춘 뒤 사용. 2 표준 탐색, 3 PC 편집·OS 미디어. 수동 변속·클러치는 해당 주행 설정 필요. 실물·게임 검증 전 추천 초안.",
+  "setupInstructions": [
+    "게임 Keyboard 바인딩에서 레이어 1의 동작을 제안 키에 직접 맞춘다. 같은 키가 이미 사용 중이면 충돌을 해결한다.",
+    "기어/클러치는 실제 게임의 변속 설정을 확인한다. 키패드는 디지털 키를 보내며 아날로그 스티어링 휠이나 페달을 만들지 않는다.",
+    "가속·조향·브레이크 유지 동작과 포토/되감기 사용 가능 문맥은 실제 게임과 키패드로 확인한다. 노브에는 운전 연속 동작을 넣지 않았다."
+  ],
+  "sources": [
+    {
+      "title": "USB-IF HID Usage Tables 1.5",
+      "url": "https://usb.org/sites/default/files/hut1_5.pdf"
+    },
+    {
+      "title": "Publisher-authored Forza Horizon 4 Steam product page (not a keybinding table)",
+      "url": "https://store.steampowered.com/app/1293830/Forza_Horizon_4/"
+    },
+    {
+      "title": "Microsoft official Windows keyboard shortcuts",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+    }
+  ],
+  "records": [
+    {
+      "id": "layer-1-shift-down",
+      "label": "제안: 기어 내리기 → Q",
+      "keys": [
+        "Q"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "Q"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 4,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-shift-up",
+      "label": "제안: 기어 올리기 → E",
+      "keys": [
+        "E"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "E"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 8,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-handbrake",
+      "label": "제안: 핸드브레이크 → Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 12,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-clutch",
+      "label": "제안: 클러치 → Shift",
+      "keys": [
+        "SHIFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 16,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-steer-left",
+      "label": "제안: 왼쪽 조향 → A",
+      "keys": [
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "A"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 3,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-accelerate",
+      "label": "제안: 가속 → W",
+      "keys": [
+        "W"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "W"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 7,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-brake",
+      "label": "제안: 브레이크 / 후진 → S",
+      "keys": [
+        "S"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "S"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 11,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-steer-right",
+      "label": "제안: 오른쪽 조향 → D",
+      "keys": [
+        "D"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "D"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 15,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-camera",
+      "label": "제안: 카메라 전환 → C",
+      "keys": [
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "C"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 2,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-look-back",
+      "label": "제안: 뒤 보기 → R",
+      "keys": [
+        "R"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "R"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 6,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-horn",
+      "label": "제안: 경적 → H",
+      "keys": [
+        "H"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "H"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 10,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-rewind",
+      "label": "제안: 되감기 → Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 14,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-map",
+      "label": "제안: 지도 → M",
+      "keys": [
+        "M"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "M"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 1,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-photo",
+      "label": "제안: 포토 모드 → P",
+      "keys": [
+        "P"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "P"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 5,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-confirm",
+      "label": "일반 확인 키 Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 9,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-escape",
+      "label": "일반 취소 키 Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 13,
+      "status": "proposed-remap",
+      "sourceUrl": null,
+      "notes": "Author-designed 1:1 binding proposal, not a verified default. Set the named action to this key in the game before use. Manual/clutch actions depend on game settings; photo/rewind depend on context.",
+      "confidence": "authored-proposal-not-a-default"
+    },
+    {
+      "id": "layer-1-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-previous-track",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-play-pause",
+      "label": "재생 / 일시 정지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PLAY_PAUSE"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-next-track",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-previous-track-2",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-stop",
+      "label": "미디어 재생 중지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "STOP"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-next-track-2",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 1,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-left",
+      "label": "왼쪽",
+      "keys": [
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "LEFT"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 4,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-up",
+      "label": "위",
+      "keys": [
+        "UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "UP"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 8,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-down",
+      "label": "아래",
+      "keys": [
+        "DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DOWN"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 12,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-right",
+      "label": "오른쪽",
+      "keys": [
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "RIGHT"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 16,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-page-up",
+      "label": "Page Up",
+      "keys": [
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_UP"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 3,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-page-down",
+      "label": "Page Down",
+      "keys": [
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 7,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-home",
+      "label": "Home",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 11,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-end",
+      "label": "End",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 15,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-tab",
+      "label": "다음 항목",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 2,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-shift-tab",
+      "label": "이전 항목",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 6,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-enter",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 10,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-escape",
+      "label": "Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 14,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-backspace",
+      "label": "Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 1,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-delete",
+      "label": "Delete",
+      "keys": [
+        "DELETE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DELETE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 5,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-space",
+      "label": "Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 9,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-context-menu",
+      "label": "문맥 메뉴 키",
+      "keys": [
+        "SHIFT",
+        "F10"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "F10"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 13,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-page-up-dial",
+      "label": "Page Up",
+      "keys": [
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_UP"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-enter-dial",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-page-down-dial",
+      "label": "Page Down",
+      "keys": [
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-left-dial",
+      "label": "왼쪽",
+      "keys": [
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "LEFT"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-tab-dial",
+      "label": "Tab",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-right-dial",
+      "label": "오른쪽",
+      "keys": [
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "RIGHT"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "Windows PC",
+      "layer": 2,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-copy",
+      "label": "복사",
+      "keys": [
+        "CTRL",
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "C"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 4,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-paste",
+      "label": "붙여넣기",
+      "keys": [
+        "CTRL",
+        "V"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "V"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 8,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-cut",
+      "label": "잘라내기",
+      "keys": [
+        "CTRL",
+        "X"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "X"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 12,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-select-all",
+      "label": "모두 선택",
+      "keys": [
+        "CTRL",
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "A"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 16,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-undo",
+      "label": "실행 취소",
+      "keys": [
+        "CTRL",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "Z"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 3,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-redo",
+      "label": "다시 실행",
+      "keys": [
+        "CTRL",
+        "Y"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "Y"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 7,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-find",
+      "label": "찾기",
+      "keys": [
+        "CTRL",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "F"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 11,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-tab",
+      "label": "다음 항목",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 15,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-shift-tab",
+      "label": "이전 항목",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 2,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-enter",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 6,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-escape",
+      "label": "Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 10,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-backspace",
+      "label": "Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 14,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-delete",
+      "label": "Delete",
+      "keys": [
+        "DELETE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DELETE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 1,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-home",
+      "label": "Home",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 5,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-end",
+      "label": "End",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 9,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-space",
+      "label": "Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 13,
+      "status": "os-convention",
+      "sourceUrl": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "notes": "Common Windows editing convention; outside-game use or a matching editable field. Target-game behavior not verified.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-play-pause",
+      "label": "재생 / 일시 정지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PLAY_PAUSE"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track-2",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-stop",
+      "label": "미디어 재생 중지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "STOP"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track-2",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "Windows PC",
+      "layer": 3,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    }
+  ],
+  "limitations": [
+    "Shortcut documentation and the profile shape were checked; physical keypad input and target-app/game execution were not verified.",
+    "User bindings, active context, feature availability, keyboard layout and digital key-hold behavior can affect results.",
+    "Vendor support links redirect to support.forza.net and could not be fetched. No default-key table is claimed. The publisher product page identifies the exact game; proposed key values are author-designed."
+  ]
+}

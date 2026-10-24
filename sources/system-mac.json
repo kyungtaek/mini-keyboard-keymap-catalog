@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": 2,
+  "id": "system-mac",
+  "title": "System navigation and media",
+  "platform": "macOS",
+  "checkedAt": "2026-10-24T14:00:00.000Z",
+  "profilePath": "keymaps/sample-system-mac.json",
+  "description": "16키·3다이얼 × 3레이어. 방향·Enter·Tab·페이지 탐색 / Safari·편집 / 미디어. META+좌/우 앞뒤는 Codex 내장 브라우저 문맥이며 Mac 공통 동작이 아님. Safari 방문 기록은 레이어 2의 META+[ / ]. 미디어는 OS·플레이어 지원 필요.",
+  "setupInstructions": [],
+  "sources": [
+    {
+      "title": "OpenAI official desktop app commands",
+      "url": "https://learn.chatgpt.com/docs/reference/commands"
+    },
+    {
+      "title": "USB-IF HID Usage Tables 1.5",
+      "url": "https://usb.org/sites/default/files/hut1_5.pdf"
+    },
+    {
+      "title": "Apple Safari shortcuts",
+      "url": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac"
+    },
+    {
+      "title": "Apple Mac keyboard shortcuts",
+      "url": "https://support.apple.com/en-us/102650"
+    }
+  ],
+  "records": [
+    {
+      "id": "layer-1-browser-back",
+      "label": "내장 브라우저 뒤로",
+      "keys": [
+        "META",
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "LEFT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 4,
+      "status": "published-default",
+      "sourceUrl": "https://learn.chatgpt.com/docs/reference/commands",
+      "notes": "Only when the Codex built-in browser is focused. Safari history uses Command+[ / Command+].",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-browser-forward",
+      "label": "내장 브라우저 앞으로",
+      "keys": [
+        "META",
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "RIGHT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 8,
+      "status": "published-default",
+      "sourceUrl": "https://learn.chatgpt.com/docs/reference/commands",
+      "notes": "Only when the Codex built-in browser is focused. Safari history uses Command+[ / Command+].",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-1-enter",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 12,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-escape",
+      "label": "Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 16,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-left",
+      "label": "왼쪽",
+      "keys": [
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "LEFT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 3,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-up",
+      "label": "위",
+      "keys": [
+        "UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 7,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-down",
+      "label": "아래",
+      "keys": [
+        "DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 11,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-right",
+      "label": "오른쪽",
+      "keys": [
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "RIGHT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 15,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-page-up",
+      "label": "Page Up",
+      "keys": [
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 2,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-page-down",
+      "label": "Page Down",
+      "keys": [
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 6,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-home",
+      "label": "Home",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 10,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-end",
+      "label": "End",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 14,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-tab",
+      "label": "다음 항목",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 1,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-shift-tab",
+      "label": "이전 항목",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 5,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-backspace",
+      "label": "Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 9,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-space",
+      "label": "Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 13,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-previous-track",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-play-pause",
+      "label": "재생 / 일시 정지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PLAY_PAUSE"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-next-track",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-previous-track-2",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-stop",
+      "label": "미디어 재생 중지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "STOP"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-1-next-track-2",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 1,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-safari-back",
+      "label": "Safari 뒤로",
+      "keys": [
+        "META",
+        "LEFT_BRACKET"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "LEFT_BRACKET"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 4,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-safari-forward",
+      "label": "Safari 앞으로",
+      "keys": [
+        "META",
+        "RIGHT_BRACKET"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "RIGHT_BRACKET"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 8,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-address",
+      "label": "Safari 주소창",
+      "keys": [
+        "META",
+        "L"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "L"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 12,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-find",
+      "label": "현재 페이지 찾기",
+      "keys": [
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 16,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-previous-tab",
+      "label": "이전 탭",
+      "keys": [
+        "CTRL",
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 3,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-next-tab",
+      "label": "다음 탭",
+      "keys": [
+        "CTRL",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "CTRL",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 7,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-close-tab",
+      "label": "현재 탭 닫기",
+      "keys": [
+        "META",
+        "W"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "W"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 11,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-reopen",
+      "label": "닫은 탭 다시 열기",
+      "keys": [
+        "SHIFT",
+        "META",
+        "T"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "T"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 15,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-top",
+      "label": "페이지 처음",
+      "keys": [
+        "META",
+        "UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 2,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-bottom",
+      "label": "페이지 끝",
+      "keys": [
+        "META",
+        "DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 6,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-page-up",
+      "label": "화면 위로",
+      "keys": [
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 10,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-page-down",
+      "label": "화면 아래로",
+      "keys": [
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 14,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-copy",
+      "label": "복사",
+      "keys": [
+        "META",
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "C"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 1,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard editing in an editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-2-paste",
+      "label": "붙여넣기",
+      "keys": [
+        "META",
+        "V"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "V"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 5,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard editing in an editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-2-select-all",
+      "label": "모두 선택",
+      "keys": [
+        "META",
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "A"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 9,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard editing in an editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-2-settings",
+      "label": "Safari 설정",
+      "keys": [
+        "META",
+        "COMMA"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "COMMA"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 13,
+      "status": "published-default",
+      "sourceUrl": "https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac",
+      "notes": "Safari or a supporting editable field must be focused.",
+      "confidence": "vendor-documented"
+    },
+    {
+      "id": "layer-2-page-up-dial",
+      "label": "Page Up",
+      "keys": [
+        "PAGE_UP"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_UP"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-enter-dial",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-page-down-dial",
+      "label": "Page Down",
+      "keys": [
+        "PAGE_DOWN"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "PAGE_DOWN"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-left-dial",
+      "label": "왼쪽",
+      "keys": [
+        "LEFT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "LEFT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-tab-dial",
+      "label": "Tab",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-right-dial",
+      "label": "오른쪽",
+      "keys": [
+        "RIGHT"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "RIGHT"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-2-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "macOS",
+      "layer": 2,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-copy",
+      "label": "복사",
+      "keys": [
+        "META",
+        "C"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "C"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 4,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-paste",
+      "label": "붙여넣기",
+      "keys": [
+        "META",
+        "V"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "V"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 8,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-cut",
+      "label": "잘라내기",
+      "keys": [
+        "META",
+        "X"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "X"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 12,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-select-all",
+      "label": "모두 선택",
+      "keys": [
+        "META",
+        "A"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "A"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 16,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-undo",
+      "label": "실행 취소",
+      "keys": [
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 3,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-redo",
+      "label": "다시 실행",
+      "keys": [
+        "SHIFT",
+        "META",
+        "Z"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "META",
+          "Z"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 7,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-find",
+      "label": "찾기",
+      "keys": [
+        "META",
+        "F"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "META",
+          "F"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 11,
+      "status": "os-convention",
+      "sourceUrl": "https://support.apple.com/en-us/102650",
+      "notes": "Standard macOS editing in a supporting editable field.",
+      "confidence": "platform-convention-context-dependent"
+    },
+    {
+      "id": "layer-3-tab",
+      "label": "다음 항목",
+      "keys": [
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 15,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-shift-tab",
+      "label": "이전 항목",
+      "keys": [
+        "SHIFT",
+        "TAB"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SHIFT",
+          "TAB"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 2,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-enter",
+      "label": "Enter",
+      "keys": [
+        "ENTER"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ENTER"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 6,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-escape",
+      "label": "Esc",
+      "keys": [
+        "ESC"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "ESC"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 10,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-backspace",
+      "label": "Backspace",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "BACKSPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 14,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-delete",
+      "label": "Delete",
+      "keys": [
+        "DELETE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "DELETE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 1,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-home",
+      "label": "Home",
+      "keys": [
+        "HOME"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "HOME"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 5,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-end",
+      "label": "End",
+      "keys": [
+        "END"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "END"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 9,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-space",
+      "label": "Space",
+      "keys": [
+        "SPACE"
+      ],
+      "action": {
+        "type": "key",
+        "keys": [
+          "SPACE"
+        ]
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 13,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Standard keyboard input; focus and application behavior apply. This record does not claim a target-game default.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-volume-down",
+      "label": "볼륨 낮추기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_DOWN"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 17,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-mute",
+      "label": "음소거",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "MUTE"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 18,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-volume-up",
+      "label": "볼륨 높이기",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "VOLUME_UP"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 19,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 20,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-play-pause",
+      "label": "재생 / 일시 정지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PLAY_PAUSE"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 21,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 22,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-previous-track-2",
+      "label": "이전 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "PREVIOUS_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 23,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-stop",
+      "label": "미디어 재생 중지",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "STOP"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 24,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    },
+    {
+      "id": "layer-3-next-track-2",
+      "label": "다음 트랙",
+      "keys": [],
+      "action": {
+        "type": "media",
+        "key": "NEXT_TRACK"
+      },
+      "platform": "macOS",
+      "layer": 3,
+      "actionId": 25,
+      "status": "standard-hid",
+      "sourceUrl": "https://usb.org/sites/default/files/hut1_5.pdf",
+      "notes": "Consumer HID usage; OS/player handling varies. Not an app-specific or game command.",
+      "confidence": "usage-standard-app-behavior-unverified"
+    }
+  ],
+  "limitations": [
+    "Shortcut documentation and the profile shape were checked; physical keypad input and target-app/game execution were not verified.",
+    "User bindings, active context, feature availability, keyboard layout and digital key-hold behavior can affect results."
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "format": "mini-keyboard-studio",
+  "version": 2,
+  "id": "sample-codex-mac",
+  "name": "Codex 앱 · Mac",
+  "description": "16키·3다이얼 × 3레이어. 공식 Codex 앱 명령 / 내장 브라우저 / 편집·미디어. CLI 단축키가 아님. META=Command. 레이어 2는 내장 브라우저가 포커스된 경우에 사용. 승인 전송용 자동 시퀀스 없음.",
+  "updatedAt": "2026-10-24T14:00:00.000Z",
+  "modelId": "mini-16x3",
+  "rotation": 0,
+  "layers": [
+    {
+      "name": "Codex 앱",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "LEFT_BRACKET"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "B"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "N"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "RIGHT_BRACKET"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "E"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "J"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "P"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "COMMA"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ALT",
+            "META",
+            "S"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "GRAVE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "P"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "SLASH"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ALT",
+            "META",
+            "A"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "G"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "O"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ALT",
+            "META",
+            "B"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "G"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "G"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "MINUS"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "0"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "EQUAL"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "내장 브라우저",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "B"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "T"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "W"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "PERIOD"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "T"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "R"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "COMMA"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "R"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "L"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        }
+      ]
+    },
+    {
+      "name": "공통 편집 / 미디어",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "DELETE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "V"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "X"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "A"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PLAY_PAUSE"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "STOP"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        }
+      ]
+    }
+  ]
+}

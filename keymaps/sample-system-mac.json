@@ -1,0 +1,463 @@
+{
+  "format": "mini-keyboard-studio",
+  "version": 2,
+  "id": "sample-system-mac",
+  "name": "시스템 기본 · Mac 탐색/미디어",
+  "description": "16키·3다이얼 × 3레이어. 방향·Enter·Tab·페이지 탐색 / Safari·편집 / 미디어. META+좌/우 앞뒤는 Codex 내장 브라우저 문맥이며 Mac 공통 동작이 아님. Safari 방문 기록은 레이어 2의 META+[ / ]. 미디어는 OS·플레이어 지원 필요.",
+  "updatedAt": "2026-10-24T14:00:00.000Z",
+  "modelId": "mini-16x3",
+  "rotation": 0,
+  "layers": [
+    {
+      "name": "기본 탐색",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PLAY_PAUSE"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "STOP"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        }
+      ]
+    },
+    {
+      "name": "Safari / 창 관리",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "LEFT_BRACKET"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "V"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "RIGHT_BRACKET"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "A"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "W"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "L"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "COMMA"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "T"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_UP"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "PAGE_DOWN"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "LEFT"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "RIGHT"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        }
+      ]
+    },
+    {
+      "name": "공통 편집 / 미디어",
+      "actions": [
+        {
+          "type": "key",
+          "keys": [
+            "DELETE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "C"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "HOME"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ENTER"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SHIFT",
+            "META",
+            "Z"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "V"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "END"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "F"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "X"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "SPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "TAB"
+          ]
+        },
+        {
+          "type": "key",
+          "keys": [
+            "META",
+            "A"
+          ]
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_DOWN"
+        },
+        {
+          "type": "media",
+          "key": "MUTE"
+        },
+        {
+          "type": "media",
+          "key": "VOLUME_UP"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PLAY_PAUSE"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "PREVIOUS_TRACK"
+        },
+        {
+          "type": "media",
+          "key": "STOP"
+        },
+        {
+          "type": "media",
+          "key": "NEXT_TRACK"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mini-keyboard-keymap-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "update": "node scripts/update-manifest.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test && node scripts/validate.mjs"
+  }
+}

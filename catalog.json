@@ -1,0 +1,104 @@
+{
+  "format": "mini-keyboard-catalog",
+  "version": 1,
+  "name": "Mini Keyboard Keymap Catalog",
+  "updatedAt": "2026-10-24T12:47:44.949Z",
+  "entries": [
+    {
+      "id": "sample-vscode-mac",
+      "name": "VS Code · Mac",
+      "description": "16키·3다이얼 × 3레이어. 공식 macOS 단축키로 편집 / 파일·탐색 / 공통 편집·미디어를 배치. META=Command, ALT=Option. 대상 앱과 실제 키패드 입력 검증은 별도.",
+      "path": "keymaps/sample-vscode-mac.json",
+      "sha256": "8aacf56f2643bbd628a6164fe066a7ca026fbc73c5e03880037fab50bb9a864a",
+      "version": "1.0.0",
+      "modelId": "mini-16x3",
+      "platform": "mac",
+      "category": "development",
+      "tags": [
+        "vscode",
+        "mac",
+        "development"
+      ]
+    },
+    {
+      "id": "sample-modern-warfare4-pc",
+      "name": "Modern Warfare 4 · PC · 바인딩 제안",
+      "description": "Modern Warfare 4(2026)용 사용자 지정 키 바인딩 제안. 공식 기본 키 표를 확인하지 못했으므로 레이어 1의 게임 동작을 게임 설정에서 이 키에 직접 맞춘 뒤 사용. CoD4(2007) 아님. 1:1 단일 키만 사용. 레이어 2 표준 탐색, 3 PC 편집·OS 미디어. 실물·게임 검증 전 추천 초안.",
+      "path": "keymaps/sample-modern-warfare4-pc.json",
+      "sha256": "6c8abc9e4bea33918e4459c5f6786f49a42f94770bee4fc0a8845ccf03c4c0ea",
+      "version": "1.0.0",
+      "modelId": "mini-16x3",
+      "platform": "windows",
+      "category": "game",
+      "tags": [
+        "modern-warfare-4",
+        "windows",
+        "requires-game-rebinding"
+      ]
+    },
+    {
+      "id": "sample-forza-horizon4-pc",
+      "name": "Forza Horizon 4 · PC · 바인딩 제안",
+      "description": "Forza Horizon 4 PC용 사용자 지정 키 바인딩 제안. 공식 기본 키 표를 확인하지 못해 기본값으로 주장하지 않음. 레이어 1의 운전·카메라 동작을 게임 설정에서 제안 키에 직접 맞춘 뒤 사용. 2 표준 탐색, 3 PC 편집·OS 미디어. 수동 변속·클러치는 해당 주행 설정 필요. 실물·게임 검증 전 추천 초안.",
+      "path": "keymaps/sample-forza-horizon4-pc.json",
+      "sha256": "e0ed80984cdc406403ced84a23f2950cf2187e61dab2f60468a16518fd9f2c8f",
+      "version": "1.0.0",
+      "modelId": "mini-16x3",
+      "platform": "windows",
+      "category": "game",
+      "tags": [
+        "forza-horizon-4",
+        "windows",
+        "requires-game-rebinding"
+      ]
+    },
+    {
+      "id": "sample-codex-mac",
+      "name": "Codex 앱 · Mac",
+      "description": "16키·3다이얼 × 3레이어. 공식 Codex 앱 명령 / 내장 브라우저 / 편집·미디어. CLI 단축키가 아님. META=Command. 레이어 2는 내장 브라우저가 포커스된 경우에 사용. 승인 전송용 자동 시퀀스 없음.",
+      "path": "keymaps/sample-codex-mac.json",
+      "sha256": "fbab20c3abcc2c174e8a8b1ad5ead826206c3732b6777d43c02a1a1fdb190fc8",
+      "version": "1.0.0",
+      "modelId": "mini-16x3",
+      "platform": "mac",
+      "category": "assistant",
+      "tags": [
+        "codex",
+        "mac",
+        "assistant"
+      ]
+    },
+    {
+      "id": "sample-claude-mac",
+      "name": "Claude 앱 · Mac · 빠른 입력 설정",
+      "description": "16키·3다이얼 × 3레이어. 먼저 Claude Desktop 설정에서 Quick access shortcut=Option+Space 선택. 레이어 1은 입력·표준 Mac 편집, 2는 아티팩트/Slides 문맥 탐색, 3은 편집·미디어. Claude Code 키와 구분. Option 두 번·Caps Lock 음성은 자동 지정하지 않음.",
+      "path": "keymaps/sample-claude-mac.json",
+      "sha256": "8dbdb093586756933611f128849694164fb508f9fa8099fa9da0d6f7292124e3",
+      "version": "1.0.0",
+      "modelId": "mini-16x3",
+      "platform": "mac",
+      "category": "assistant",
+      "tags": [
+        "claude",
+        "mac",
+        "requires-quick-entry-setting"
+      ]
+    },
+    {
+      "id": "sample-system-mac",
+      "name": "시스템 기본 · Mac 탐색/미디어",
+      "description": "16키·3다이얼 × 3레이어. 방향·Enter·Tab·페이지 탐색 / Safari·편집 / 미디어. META+좌/우 앞뒤는 Codex 내장 브라우저 문맥이며 Mac 공통 동작이 아님. Safari 방문 기록은 레이어 2의 META+[ / ]. 미디어는 OS·플레이어 지원 필요.",
+      "path": "keymaps/sample-system-mac.json",
+      "sha256": "00a1037127a3887486b60517cfa21fa7295243162aee8e96209b75d499bec1c7",
+      "version": "1.0.0",
+      "modelId": "mini-16x3",
+      "platform": "mac",
+      "category": "system",
+      "tags": [
+        "system",
+        "mac",
+        "media"
+      ]
+    }
+  ]
+}
