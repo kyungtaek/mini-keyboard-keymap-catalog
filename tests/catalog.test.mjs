@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { validateCatalog, sha256 } from '../scripts/validate.mjs';
-import { validateProfile } from '../tools/profile.js';
+import { validateProfile, encodeShare, decodeShare } from '../tools/profile.js';
 const root = new URL('../', import.meta.url);
 const catalog = JSON.parse(await readFile(new URL('catalog.json', root), 'utf8'));
 const mutate = change => { const copy = structuredClone(catalog); change(copy); return copy; };
@@ -48,11 +48,13 @@ async function withV3Profile(label, run) {
   }
 }
 
-test('accepts v3 profile with app association and action label', async () => {
+test('accepts v3 profile and strips app association while retaining action label', async () => {
   await withV3Profile('줄 위로 이동', async (fixture, base, profile) => {
     assert.deepEqual(await validateCatalog(fixture, base), { entries: 1, actions: 75 });
     const normalized = validateProfile(profile);
-    assert.equal(normalized.applicationId, 'vscode-mac');
+    assert.equal(normalized.version, 4);
+    assert.equal(Object.hasOwn(normalized, 'applicationId'), false);
+    assert.ok(normalized.layers.every(layer => layer.lighting === null));
     assert.equal(normalized.layers[0].actions[0].label, '줄 위로 이동');
   });
 });
@@ -64,11 +66,32 @@ for (const label of ['x'.repeat(81), { text: 'invalid' }, '   ']) {
   });
 }
 
-test('legacy profiles normalize to v3 with inferred app association', async () => {
+test('legacy profiles normalize to v4 without application binding', async () => {
   for (const entry of catalog.entries) {
     const raw = JSON.parse(await readFile(new URL(entry.path, root), 'utf8'));
     const normalized = validateProfile(raw);
-    assert.equal(normalized.version, 3);
-    assert.equal(normalized.applicationId, entry.category === 'system' ? null : entry.id.replace(/^sample-/, ''));
+    assert.equal(normalized.version, 4);
+    assert.equal(Object.hasOwn(normalized, 'applicationId'), false);
+    assert.deepEqual(normalized.layers.map(({ lighting, ...layer }) => layer), raw.layers);
+    assert.ok(normalized.layers.every(layer => layer.lighting === null));
   }
+});
+
+test('v4 lighting and labels validate in a catalog fixture and shared fragment', async () => {
+  await withV3Profile('복사', async (fixture, base, old) => {
+    const profile = validateProfile(old);
+    profile.rotation = 270;
+    profile.layers[1].lighting = { mode: 2, colors: Array(16).fill(null) };
+    profile.layers[1].lighting.colors[5] = '#ff8030';
+    const bytes = Buffer.from(JSON.stringify(profile));
+    fixture.entries[0].sha256 = sha256(bytes);
+    await writeFile(new URL(fixture.entries[0].path, base), bytes);
+    assert.deepEqual(await validateCatalog(fixture, base), { entries: 1, actions: 75 });
+    assert.deepEqual(decodeShare(encodeShare(profile)), profile);
+    profile.layers[1].lighting.colors[5] = '#123456';
+    const invalidBytes = Buffer.from(JSON.stringify(profile));
+    fixture.entries[0].sha256 = sha256(invalidBytes);
+    await writeFile(new URL(fixture.entries[0].path, base), invalidBytes);
+    await assert.rejects(validateCatalog(fixture, base), /팔레트/);
+  });
 });

@@ -1,4 +1,5 @@
 import { getModel, actionCount } from './models.js';
+import { normalizeLighting } from './lighting-profile.js';
 
 const FORMAT = 'mini-keyboard-studio';
 const LIBRARY_KEY = 'mini-keyboard-studio.library.v1';
@@ -119,11 +120,11 @@ function validateActionCore(value) {
 export function createProfile(name = '새 키맵', modelId = 'mini-16x3') {
   const model = getModel(modelId);
   return validateProfile({
-    format: FORMAT, version: 3, modelId: model.id, rotation: 0, applicationId: null,
+    format: FORMAT, version: 4, modelId: model.id, rotation: 0,
     id: globalThis.crypto?.randomUUID?.() ?? `keymap-${Date.now()}-${Math.random().toString(36).slice(2)}`,
     name, description: '', updatedAt: new Date().toISOString(),
     layers: Array.from({ length: 3 }, (_, index) => ({
-      name: `레이어 ${index + 1}`, actions: Array.from({ length: actionCount(model) }, () => ({ type: 'preserve' })),
+      name: `레이어 ${index + 1}`, actions: Array.from({ length: actionCount(model) }, () => ({ type: 'preserve' })), lighting: null,
     })),
   });
 }
@@ -131,12 +132,11 @@ export function createProfile(name = '새 키맵', modelId = 'mini-16x3') {
 export function validateProfile(value) {
   const versionDescriptor = value && typeof value === 'object' && Object.getOwnPropertyDescriptor(value, 'version');
   const version = versionDescriptor && 'value' in versionDescriptor ? versionDescriptor.value : undefined;
-  if (version !== 1 && version !== 2 && version !== 3) fail('지원하지 않는 키맵 형식 또는 버전입니다.');
+  if (![1, 2, 3, 4].includes(version)) fail('지원하지 않는 키맵 형식 또는 버전입니다.');
   const fields = ['format', 'version', 'id', 'name', 'description', 'updatedAt', 'layers'];
   object(value, version === 1 ? fields : [...fields, 'modelId', 'rotation', ...(version===3?['applicationId']:[])], '키맵');
-  const legacyApps={'sample-vscode-mac':'vscode-mac','sample-codex-mac':'codex-mac','sample-claude-mac':'claude-mac','sample-modern-warfare4-pc':'modern-warfare4-pc','sample-forza-horizon4-pc':'forza-horizon4-pc'};
-  const applicationId=version===3?value.applicationId:(legacyApps[value.id]||null);
-  if(applicationId!==null && (typeof applicationId!=='string'||applicationId.length>100||!(/^[a-z0-9][a-z0-9-]*$/).test(applicationId)))fail('연결 앱 ID가 올바르지 않습니다.');
+  if (version === 3 && value.applicationId !== null
+    && (typeof value.applicationId !== 'string' || value.applicationId.length > 100 || !/^[a-z0-9][a-z0-9-]*$/.test(value.applicationId))) fail('연결 앱 ID가 올바르지 않습니다.');
   if (value.format !== FORMAT) fail('지원하지 않는 키맵 형식 또는 버전입니다.');
   const model = getModel(version === 1 ? 'mini-16x3' : value.modelId);
   const rotation = version === 1 ? 0 : value.rotation;
@@ -147,12 +147,14 @@ export function validateProfile(value) {
   const updatedAt = timestamp(value.updatedAt);
   array(value.layers, 3, 3, '레이어');
   const layers = value.layers.map(layer => {
-    object(layer, ['name', 'actions'], '레이어');
+    object(layer, version === 4 ? ['name', 'actions', 'lighting'] : ['name', 'actions'], '레이어');
     const layerName = string(layer.name, 80, '레이어 이름');
     array(layer.actions, actionCount(model), actionCount(model), '레이어 동작');
-    return { name: layerName, actions: layer.actions.map(validateAction) };
+    if (version === 4 && layer.lighting === undefined) fail('레이어 LED 설정은 원래 설정 유지 또는 모드와 색상으로 지정해 주세요.');
+    const lighting = normalizeLighting(version === 4 ? layer.lighting : undefined, model.id);
+    return { name: layerName, actions: layer.actions.map(validateAction), lighting };
   });
-  return { format: FORMAT, version: 3, id, name, description, updatedAt, modelId: model.id, rotation, applicationId, layers };
+  return { format: FORMAT, version: 4, id, name, description, updatedAt, modelId: model.id, rotation, layers };
 }
 
 export function actionLabel(action) {
